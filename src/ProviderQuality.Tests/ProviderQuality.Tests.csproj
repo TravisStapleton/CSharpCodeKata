@@ -58,6 +58,10 @@
       <Project>{f2e879a9-7f1c-4c34-ab0d-2662f9815046}</Project>
       <Name>ProviderQuality.Console</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ProviderQuality.Logic\ProviderQuality.Logic.csproj">
+      <Project>{0958f2cf-c15f-4f89-a9ea-7bacd7f0fbe8}</Project>
+      <Name>ProviderQuality.Logic</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
